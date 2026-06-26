@@ -1,7 +1,7 @@
 {
-  "name": "{{TOOL_NAME}}",
-  "short_name": "{{TOOL_SHORT_NAME}}",
-  "description": "{{TOOL_DESCRIPTION}}",
+  "name": "Markdown to HTML Converter",
+  "short_name": "MD to HTML",
+  "description": "Convert Markdown to clean HTML instantly with live preview. Supports GFM tables, code blocks, task lists. 100% client-side.",
   "icons": [
     {
       "src": "/favicon.svg",
@@ -22,7 +22,7 @@
       "purpose": "any maskable"
     }
   ],
-  "theme_color": "{{BRAND_COLOR}}",
+  "theme_color": "#3b82f6",
   "background_color": "#ffffff",
   "display": "standalone",
   "orientation": "portrait-primary",
