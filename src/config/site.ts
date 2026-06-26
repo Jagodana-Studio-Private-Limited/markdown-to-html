@@ -1,174 +1,183 @@
 export const siteConfig = {
-  // ====== CUSTOMIZE THESE FOR EACH TOOL ======
-  name: "{{TOOL_NAME}}",
-  title: "{{TOOL_TITLE}}",
-  description: "{{TOOL_DESCRIPTION}}",
-  url: "https://{{TOOL_SLUG}}.jagodana.com",
+  name: "Markdown to HTML",
+  title: "Markdown to HTML Converter — Live Preview & Clean HTML Output",
+  description:
+    "Convert Markdown to clean HTML instantly with a live split-pane preview. Supports GFM tables, code blocks, task lists, and more. 100% client-side — nothing leaves your browser.",
+  url: "https://markdown-to-html.tools.jagodana.com",
   ogImage: "/opengraph-image",
 
-  // Header
-  headerIcon: "Wrench", // lucide-react icon name (e.g., Image, Map, Code, Palette, Globe, FileSearch)
-  // Brand gradient colors for Tailwind are in globals.css (--brand / --brand-accent)
-  // Use text-brand, from-brand, to-brand-accent etc. in components
-  brandAccentColor: "#06b6d4", // hex accent for OG image gradient (must match --brand-accent in globals.css)
+  headerIcon: "FileCode2",
+  brandAccentColor: "#6366f1",
 
-  // SEO
   keywords: [
-    "{{KEYWORD_1}}",
-    "{{KEYWORD_2}}",
-    "{{KEYWORD_3}}",
+    "markdown to html",
+    "markdown converter",
+    "markdown preview",
+    "convert markdown to html online",
+    "markdown editor",
+    "github flavored markdown",
+    "gfm converter",
+    "markdown live preview",
+    "html generator",
+    "markdown to html free",
   ],
-  applicationCategory: "DeveloperApplication", // or "DesignApplication", "UtilitiesApplication"
+  applicationCategory: "DeveloperApplication",
 
-  // Theme
-  themeColor: "#10b981", // used in manifest and meta tags
+  themeColor: "#3b82f6",
 
-  // Branding
   creator: "Jagodana",
   creatorUrl: "https://jagodana.com",
   twitterHandle: "@jagodana",
 
-  // Social Profiles (for Organization schema sameAs)
   socialProfiles: [
     "https://twitter.com/jagodana",
-    // Add more: LinkedIn, YouTube, etc.
   ],
 
-  // Links
   links: {
-    github: "https://github.com/Jagodana-Studio-Private-Limited/{{TOOL_SLUG}}",
+    github: "https://github.com/Jagodana-Studio-Private-Limited/markdown-to-html",
     website: "https://jagodana.com",
   },
 
-  // Footer
   footer: {
-    about: "{{FOOTER_ABOUT_DESCRIPTION}}",
+    about:
+      "Free online Markdown-to-HTML converter with instant live preview. Supports GitHub Flavored Markdown — tables, task lists, code blocks, and more.",
     featuresTitle: "Features",
     features: [
-      "{{FEATURE_1}}",
-      "{{FEATURE_2}}",
-      "{{FEATURE_3}}",
-      "{{FEATURE_4}}",
+      "Live split-pane preview",
+      "GitHub Flavored Markdown",
+      "Copy clean HTML output",
+      "Download as .html file",
     ],
   },
 
-  // Hero Section
   hero: {
-    badge: "{{HERO_BADGE_TEXT}}",
-    titleLine1: "{{HERO_TITLE_LINE_1}}",
-    titleGradient: "{{HERO_TITLE_GRADIENT_TEXT}}",
-    subtitle: "{{HERO_SUBTITLE}}",
+    badge: "Free Markdown Converter",
+    titleLine1: "Convert Markdown to",
+    titleGradient: "Clean HTML Instantly",
+    subtitle:
+      "Paste your Markdown and see the HTML output live — no sign-up, no uploads, no limits. Supports GFM tables, task lists, fenced code blocks, and more.",
   },
 
-  // Feature Cards (shown on homepage)
   featureCards: [
     {
-      icon: "{{FEATURE_ICON_1}}",
-      title: "{{FEATURE_CARD_TITLE_1}}",
-      description: "{{FEATURE_CARD_DESC_1}}",
+      icon: "⚡",
+      title: "Live Preview",
+      description:
+        "See rendered output and raw HTML side-by-side as you type — zero delay.",
     },
     {
-      icon: "{{FEATURE_ICON_2}}",
-      title: "{{FEATURE_CARD_TITLE_2}}",
-      description: "{{FEATURE_CARD_DESC_2}}",
+      icon: "📋",
+      title: "GitHub Flavored Markdown",
+      description:
+        "Full GFM support: tables, task lists, strikethrough, and fenced code blocks.",
     },
     {
-      icon: "{{FEATURE_ICON_3}}",
-      title: "{{FEATURE_CARD_TITLE_3}}",
-      description: "{{FEATURE_CARD_DESC_3}}",
+      icon: "🔒",
+      title: "100% Client-Side",
+      description:
+        "All processing happens in your browser. Nothing is sent to a server.",
     },
   ],
 
-  // Related Tools (cross-linking to sibling Jagodana tools for internal SEO)
   relatedTools: [
     {
-      name: "Favicon Generator",
-      url: "https://favicon-generator.jagodana.com",
-      icon: "🎨",
-      description: "Generate all favicon sizes + manifest from any image.",
+      name: "HTML to Markdown",
+      url: "https://html-to-markdown.tools.jagodana.com",
+      icon: "↩️",
+      description: "Convert HTML back to clean, readable Markdown.",
     },
     {
-      name: "Sitemap Checker",
-      url: "https://sitemap-checker.jagodana.com",
-      icon: "🔍",
-      description: "Discover and validate sitemaps on any website.",
+      name: "JSON Formatter",
+      url: "https://json-formatter.tools.jagodana.com",
+      icon: "📐",
+      description: "Prettify and validate JSON with syntax highlighting.",
+    },
+    {
+      name: "HTML Minifier",
+      url: "https://html-minifier.tools.jagodana.com",
+      icon: "🗜️",
+      description: "Minify HTML to reduce file size instantly.",
     },
     {
       name: "Regex Playground",
-      url: "https://regex-playground.jagodana.com",
+      url: "https://regex-playground.tools.jagodana.com",
       icon: "🧪",
-      description: "Build, test & debug regular expressions in real-time.",
+      description: "Build, test and debug regular expressions in real-time.",
     },
     {
-      name: "Screenshot Beautifier",
-      url: "https://screenshot-beautifier.jagodana.com",
-      icon: "📸",
-      description: "Transform screenshots into beautiful images.",
+      name: "Word Counter",
+      url: "https://word-counter.tools.jagodana.com",
+      icon: "📝",
+      description: "Count words, characters, sentences, and reading time.",
     },
     {
-      name: "Color Palette Explorer",
-      url: "https://color-palette-explorer.jagodana.com",
-      icon: "🎭",
-      description: "Extract color palettes from any image.",
-    },
-    {
-      name: "Logo Maker",
-      url: "https://logo-maker.jagodana.com",
-      icon: "✏️",
-      description: "Create a professional logo in 60 seconds.",
+      name: "Text Diff Checker",
+      url: "https://text-diff-checker.tools.jagodana.com",
+      icon: "🔍",
+      description: "Compare two text blocks and highlight differences.",
     },
   ],
 
-  // HowTo Steps (drives HowTo JSON-LD schema for rich results)
   howToSteps: [
-    { name: "{{STEP_1_NAME}}", text: "{{STEP_1_TEXT}}", url: "" },
-    { name: "{{STEP_2_NAME}}", text: "{{STEP_2_TEXT}}", url: "" },
-    { name: "{{STEP_3_NAME}}", text: "{{STEP_3_TEXT}}", url: "" },
+    {
+      name: "Paste or type Markdown",
+      text: "Type or paste your Markdown content into the left editor pane.",
+      url: "",
+    },
+    {
+      name: "See the live preview",
+      text: "The rendered HTML preview updates instantly as you type on the right pane.",
+      url: "",
+    },
+    {
+      name: "Copy or download the HTML",
+      text: "Switch to the HTML tab to view the raw output, then copy it or download it as an .html file.",
+      url: "",
+    },
   ],
-  howToTotalTime: "PT2M", // ISO 8601 duration (e.g., PT2M = 2 minutes)
+  howToTotalTime: "PT1M",
 
-  // FAQ (drives both the FAQ UI section and FAQPage JSON-LD schema)
   faq: [
     {
-      question: "{{FAQ_QUESTION_1}}",
-      answer: "{{FAQ_ANSWER_1}}",
+      question: "What is a Markdown to HTML converter?",
+      answer:
+        "A Markdown to HTML converter transforms Markdown syntax (like **bold**, # headings, and - lists) into equivalent HTML tags (<strong>, <h1>, <ul>) that browsers can render. This tool does that conversion instantly in your browser.",
     },
     {
-      question: "{{FAQ_QUESTION_2}}",
-      answer: "{{FAQ_ANSWER_2}}",
+      question: "Does this support GitHub Flavored Markdown (GFM)?",
+      answer:
+        "Yes. This converter supports full GitHub Flavored Markdown including tables, task lists (- [ ] / - [x]), strikethrough text (~~text~~), fenced code blocks with language hints, and auto-linked URLs.",
     },
     {
-      question: "{{FAQ_QUESTION_3}}",
-      answer: "{{FAQ_ANSWER_3}}",
+      question: "Is my Markdown content sent to a server?",
+      answer:
+        "No. All conversion happens entirely in your browser using JavaScript. Your content is never uploaded to or stored on any server.",
     },
     {
-      question: "{{FAQ_QUESTION_4}}",
-      answer: "{{FAQ_ANSWER_4}}",
+      question: "Can I download the converted HTML file?",
+      answer:
+        "Yes. Click the 'Download .html' button to save the output as a standalone .html file that you can open in any browser.",
+    },
+    {
+      question: "What Markdown features are supported?",
+      answer:
+        "This tool supports headings (H1–H6), bold, italic, strikethrough, inline code, fenced code blocks, blockquotes, ordered and unordered lists, task lists, tables, horizontal rules, images, and links.",
+    },
+    {
+      question: "Why would I need to convert Markdown to HTML?",
+      answer:
+        "Common use cases include: embedding Markdown content in websites that need raw HTML, copying formatted content into email clients or CMS editors that accept HTML, and previewing how Markdown will render before pasting it elsewhere.",
     },
   ],
 
-  // ====== PAGES (for sitemap + per-page SEO) ======
-  // Add every route here. Sitemap and generatePageMetadata() read from this.
   pages: {
     "/": {
-      title: "{{TOOL_TITLE}}",
-      description: "{{TOOL_DESCRIPTION}}",
+      title: "Markdown to HTML Converter — Live Preview & Clean HTML Output",
+      description:
+        "Convert Markdown to clean HTML instantly with a live split-pane preview. Supports GFM tables, code blocks, task lists, and more. 100% client-side.",
       changeFrequency: "weekly" as const,
       priority: 1,
     },
-    // Example page (DELETE when starting your tool, or customize)
-    "/about": {
-      title: "About - {{TOOL_NAME}}",
-      description: "Learn more about {{TOOL_NAME}} and how it works.",
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
-    // "/blog": {
-    //   title: "Blog - {{TOOL_NAME}}",
-    //   description: "Tips, tutorials, and updates about {{TOOL_NAME}}.",
-    //   changeFrequency: "weekly" as const,
-    //   priority: 0.8,
-    // },
   },
 } as const;
 
